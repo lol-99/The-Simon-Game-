@@ -21,13 +21,6 @@ $(document).keydown(function() {
   }
 });
 
-$(document).click(function(){ 
-  if (!started) {
-    $("#level-title").text("Level " + level);
-    nextSequence();
-    started = true;
-  });
-
 //ANSWER 4
 $(".btn").click(function() {
 
